@@ -1,0 +1,12 @@
+{
+    "service": {
+      "name": "httpd",
+      "port": 80,
+      "check": {
+        "name": "httpd-check",
+        "http": "http://localhost:80",
+        "interval": "10s",
+        "timeout": "1s"
+      }
+    }
+  }
